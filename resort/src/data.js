@@ -1,0 +1,1 @@
+import room1 from "./images/details-1.jpeg"; 
