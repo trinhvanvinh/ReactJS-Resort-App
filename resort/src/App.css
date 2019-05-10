@@ -302,6 +302,20 @@ h6 {
     width: 100%;
   }
 }
-
-
  /* end services */
+
+/* featured rooms */
+.featured-rooms{
+  padding: 5rem 0;
+}
+.featured-rooms-center{
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+}
+/* end featured room */
+
+/* room */
+.room{
+  box-shadow: var(--lightShadow);
+}
