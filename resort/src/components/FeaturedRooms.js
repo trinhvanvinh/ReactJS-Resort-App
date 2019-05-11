@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {RoomContext} from '../context';
-import Room from "./Room";
-import Title from '../components/Title';
+import Room from './Room';
+import Title from './Title'
 import Loading from './Loading';
 
 export default class FeaturedRooms extends Component {
@@ -11,8 +11,9 @@ export default class FeaturedRooms extends Component {
   render() {
 
   let {loading,featuredRooms:rooms} = this.context;
+  console.log("123"+rooms)
   rooms=rooms.map(room=>{
-    return <Room key={room.id} room={room} />
+    return <Room key={room.id} room={room}  />;
   });
 
     return (
